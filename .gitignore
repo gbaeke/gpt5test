@@ -1,0 +1,71 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+.build/
+.eggs/
+*.egg-info/
+.dist-info/
+.venv/
+venv/
+.env
+.env.*
+.envrc
+python.env
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+ruff_cache/
+*.log
+
+# SQLite / local DB
+*.sqlite3
+*.db
+
+# Packaging / build artifacts
+build/
+dist/
+wheelhouse/
+
+# ---- Node / Frontend ----
+node_modules/
+.npm/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+# (keep lockfile above if you prefer committing it; remove line to track)
+.parcel-cache/
+.next/
+.vite/
+.DS_Store
+
+# Production / transpiled
+frontend/dist/
+frontend/build/
+backend/static/
+
+# ---- Editors & IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.tmp
+*.bak
+
